@@ -22,7 +22,7 @@ private  By login = By.cssSelector("#content > div > div:nth-child(2) > div > fo
     }
     public WebElement pass(){
         return driver.findElement(pass);
-
+        //ok
     }
     public WebElement login(){
         return driver.findElement(login);
